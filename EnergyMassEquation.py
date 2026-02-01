@@ -22,6 +22,12 @@ if OppType == 'mass':
     Energy = Mass*C*C
 elif OppType == 'rad':
     # Get Input
-    Rad = float(input("Energy(j): ")) 
-    # Formula: (RC^2)/(2G)
-    Mass = (C*C)/E
+    Energy = float(input("Energy(j): ")) 
+    # Formula: 
+    Mass = (C*C)/Energy
+# Print Answers
+print(f'\n Results')
+print(f"Mass full (kg) = {Mass:.0f}") #Full Value
+print(f"Mass scientific (kg) = {Mass}") #Scientific Notation
+print(f"Energy Full(m) = {Energy:.0f}") #Full Value
+print(f"Mass scientific (kg) = {Energy}") #Scientific Notation
