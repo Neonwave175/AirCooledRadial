@@ -16,3 +16,7 @@ This is a bunch of scripts intended to be used by anyone to find stuff without r
 ## Contributions
 - Edit the code or add new scripts directly from github
 - For testing, run it by cloning it
+
+## License
+MIT License
+Copyright (c) 2026 Bhuvan Jeyaganesan
