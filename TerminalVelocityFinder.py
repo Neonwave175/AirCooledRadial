@@ -15,7 +15,7 @@ print("Air density (kg/m^3) =", rho, "\n")
 
 # Get Operation To Perform
 print("Operation To perform:")
-OppType = input("Find Velocity (vel) Or Find Mass (mass): ")
+OppType = input("Velocity->Mass(vel) or Mass->Velocity(mass): ")
 
 # Perform Operation
 if OppType == "vel":
