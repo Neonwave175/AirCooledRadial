@@ -1,5 +1,5 @@
-# © Bhuvan Jeyaganesan
-# All Rights Reserved
+# © Bhuvan Jeyaganesan 2026
+# MIT License
 # Creator Bhuvan Jeyaganesan
 # Schwarzschild Radius finder
 
