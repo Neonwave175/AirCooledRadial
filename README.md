@@ -7,3 +7,6 @@ This is a bunch of scripts intended to be used by anyone to find stuff without r
 
 ## Features
 - Schwarzschild Radius finder
+
+## Usage
+> Project will constantly get improvements and new features so update it regularly
