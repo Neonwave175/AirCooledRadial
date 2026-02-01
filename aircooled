@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -e
+
+if [ "$1" = "-ssr" ]; then
+    echo "Schwarzschild Radius Finder"
+    python3 SchwarzschildRadiusFinder.py
+elif [ "$1" = "-emcs" ]; then
+    echo "Energy Mass Equation"
+    python3 EnergyMassEquation.py
+elif [ "$1" = "-tvel" ]; then
+    echo "Terminal Velocity Finder"
+    python3 TerminalVelocityFinder.py
+elif [ "$1" = "-help" ]; then
+    echo "--Help--"
+    echo ""
+    echo "-ssr for Schwarzschild Radius Finder, -emcs for Energy Mass Equation, -tvel for Terminal Velocity Finder"
+else
+    echo "Unknown command, type -help for list of commands"
+fi
