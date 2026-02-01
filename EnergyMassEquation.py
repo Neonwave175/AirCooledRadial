@@ -19,15 +19,15 @@ if OppType == 'mass':
     # Get Input
     Mass = float(input("Mass(kg): "))
     # Formula: MC*C
-    Energy = Mass*C*C
+    Energy = (float(Mass*C*C))
 elif OppType == 'energy':
     # Get Input
     Energy = float(input("Energy(j): ")) 
     # Formula: 
-    Mass = (C*C)/Energy
+    Mass = (float(C*C)/(Energy))
 # Print Answers
 print(f'\n Results')
 print(f"Mass full (kg) = {Mass:.0f}") #Full Value
 print(f"Mass scientific (kg) = {Mass}") #Scientific Notation
 print(f"Energy Full(m) = {Energy:.0f}") #Full Value
-print(f"Mass scientific (kg) = {Energy}") #Scientific Notation
+print(f"Energy scientific (kg) = {Energy}") #Scientific Notation
