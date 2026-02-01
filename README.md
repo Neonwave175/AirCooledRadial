@@ -10,3 +10,9 @@ This is a bunch of scripts intended to be used by anyone to find stuff without r
 
 ## Usage
 > Project will constantly get improvements and new features so update it regularly
+- Clone the repo
+- Run it
+
+## Contributions
+- Edit the code or add new scripts directly from github
+- For testing, run it by cloning it
