@@ -24,7 +24,7 @@ elif OppType == 'energy':
     # Get Input
     Energy = float(input("Energy(j): ")) 
     # Formula: 
-    Mass = (float(C*C)/(Energy))
+    Mass = (float(Energy)/(C*C))
 # Print Answers
 print(f'\n Results')
 print(f"Mass full (kg) = {Mass:.0f}") #Full Value
