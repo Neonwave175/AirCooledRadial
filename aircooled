@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-
+#init script
 if [ "$1" = "-ssr" ]; then
     echo "Schwarzschild Radius Finder"
     python3 SchwarzschildRadiusFinder.py
