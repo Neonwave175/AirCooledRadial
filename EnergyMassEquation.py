@@ -12,7 +12,7 @@ print('Speed of light=', C, "\n")
 
 # Get Operation To Perform
 print('Operation To perform:')
-OppType = input('Mass->Energy(mass) Or Energy->Mass(rad): ')
+OppType = input('Mass->Energy(mass) Or Energy->Mass(energy): ')
 
 # Perform Operation
 if OppType == 'mass':
@@ -20,7 +20,7 @@ if OppType == 'mass':
     Mass = float(input("Mass(kg): "))
     # Formula: MC*C
     Energy = Mass*C*C
-elif OppType == 'rad':
+elif OppType == 'energy':
     # Get Input
     Energy = float(input("Energy(j): ")) 
     # Formula: 
